@@ -28,7 +28,7 @@ html,body{
 .loading {
 	background: url('../images/ico_loading.gif') no-repeat center center;
 }
-
+.loaded section,
 .navigation{
 	position:absolute;
 	z-index:1;
