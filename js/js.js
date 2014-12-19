@@ -1,5 +1,16 @@
 jQuery(document).ready(function ($) {
 
+    $body = $('body');
+    
+    //FadeIn all sections   
+    $body.imagesLoaded( function() {
+        setTimeout(function() {
+              
+              // Fade in sections
+              $body.removeClass('loading');
+              
+        }, 800);
+    });
 
     //initialise Stellar.js
     $(window).stellar();
