@@ -156,7 +156,10 @@ main {
 	top: 0;
 	left: 0;
 }
-.navigation{
+#sticker .loading {
+    display: none;
+}
+.navigation {
     position:absolute;
     z-index:1;
     top:200px;
