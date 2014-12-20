@@ -91,14 +91,9 @@
 
 	function adjustWindow(){
 		
-		// Init Skrollr
-		var s = skrollr.init({
-		    forceHeight: false
-		});
-		
-		// Get window size
-	    winH = $window.height();
-        winW = $window.width();
+	// Get window size
+    winH = $window.height();
+    winW = $window.width();
 	    
 	   // Keep minimum height 550
     if(winH <= 550) {
@@ -143,7 +138,7 @@
             adjustWindow();
         }
     };
-    
+
     enquire.register("screen and (min-width : 768px)", initAdjustWindow(), false);
 }
 		
