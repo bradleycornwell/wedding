@@ -132,7 +132,7 @@ h2 {
 	margin-top: 0;
 }
 .loading {
-	background: url('../images/ico_loading.gif') no-repeat center center;
+	background: url('../images/loading.gif') no-repeat center center;
 }
 section {
 	min-width: 960px;
