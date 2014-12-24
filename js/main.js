@@ -26,6 +26,7 @@
 		      
 		      // Fade in sections
 			  $body.removeClass('loading').addClass('loaded');
+              $("#load_message").removeClass('loading_message').addClass('loaded_message');
 			  
 		}, 800);
 	});
